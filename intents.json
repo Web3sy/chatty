@@ -1,0 +1,32 @@
+{
+  "intents": [
+    {
+      "tag": "greeting", "patterns": ["hi", "hello", "hey"], 
+    "responses": ["Hello!", "Hi there!", "Greetings!"]},
+
+    {
+      "tag": "info_request", "patterns": ["tell me about", "what is", "explain"], 
+      "responses": ["I'm sorry, I don't have that information right now."]},
+
+    {
+      "tag": "goodbye", 
+      "patterns": ["bye", "goodbye", "see you"], 
+      "responses": ["Goodbye!", "Take care!", "See you soon!"]},
+
+    {
+      "tag": "web3sy_courses", 
+      "patterns": ["web3sy courses", "courses on web3sy", "learn on web3sy"], 
+      "responses": ["Sure, visit https://web3sy.com/courses/ to explore our available courses."]},
+
+    {
+      "tag": "user_intent", 
+      "patterns": ["I want to", "I'd like to", "What can I do today", "What's available"], 
+      "responses": ["Sure! I can help you find courses on web3sy.com. Just let me know."]},
+
+    
+
+    {
+      "tag": "fallback", "patterns": ["", " ", "   "], 
+      "responses": ["I'm sorry, I didn't understand that. Can you please rephrase or ask another question?"]}
+  ]
+}
